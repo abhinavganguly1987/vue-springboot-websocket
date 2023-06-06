@@ -64,7 +64,7 @@
 import { connect, disconnect, sendName } from "@/websocketutil.js";
 import { mapState } from "vuex";
 export default {
-  name: "HelloWorld",
+  name: "Websock",
   data() {
     return {
       disabled: true,
